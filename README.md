@@ -740,7 +740,10 @@ printf "%s\n" $argv
 </details>
 
 ### How to parse command line arguments in fish?
+## `argparse` Complete solution (as of Fish 2.7.0)
+Use [`argparse`](https://fishshell.com/docs/current/commands.html#argparse)
 
+#### Simpler
 Use a [`for`](http://fishshell.com/docs/current/commands.html#for) loop.
 
 ```fish
